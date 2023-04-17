@@ -1,0 +1,91 @@
+{\rtf1\ansi\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset162 Calibri;}{\f1\fnil\fcharset238 Calibri;}{\f2\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\f0\fs32\lang1055 yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  1\b0\fs22\par
+\par
+node modules'\f2\lang1033\'fc\f0\lang1055  her zaman silebilirsin package json.da istenenler var zaten. yahut git ignore ile node modules'\f2\lang1033\'fc\f0\lang1055  oraya yazars\f1\u305?\f0 n ignore eder \par
+( .gitignore) i\f2\lang1033\'e7\f0\lang1055 ine node_modules yaz yeter  ba\f1\'ba\f0 ka dosyada ekleyebilirsin arada virg\f2\lang1033\'fc\f0\lang1055 l olmadan\par
+\par
+note : branch ismi de\f1\u287?\f0 i\f1\'ba\f0 tirme             gir branch  -m main as\f1\u305?\f0 l (main ismini as\f1\u305?\f0 la \f2\lang1033\'e7\f0\lang1055 evirdik)\par
+\par
+1-control +c  yap koduna terminalde(kodun yani projenin \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\f0 mas\f1\u305?\f0  duruyor)  github'a y\f2\lang1033\'fc\f0\lang1055 klemeden \f2\lang1033\'f6\f0\lang1055 nce\par
+2-git init\par
+3-git add  .\par
+4-git commit -m "initial commit"\par
+5-git status ile hi\f2\lang1033\'e7\f0\lang1055 bir commitlik \f1\'ba\f0 ey olmad\f1\u305?\u287?\u305?\f0 n\f1\u305?\f0  g\f2\lang1033\'f6\f0\lang1055 rebilirsin,clear ile terminali bir temizle.\par
+6-npm start ile tekrar development serverini ba\f1\'ba\f0 lat\f1\u305?\f0 yoruz ve kod yazmaya devam ediyorsun bu a\f1\'ba\f0 amada githuba y\f2\lang1033\'fc\f0\lang1055 klenen bir \f1\'ba\f0 ey yok. local git ile \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\f0 m\f1\u305?\'ba\f0  oldun.\par
+7- g\f2\lang1033\'fc\f0\lang1055 n sonu yazman bittikten sonra  control+c ile development serveri tekrar kapat\f1\u305?\f0 p\par
+8-bu de\f1\u287?\f0 i\f1\'ba\f0 iklikleri ana branch olan main'e de\f1\u287?\f0 il yeni bir branch'e kaydetmek i\f2\lang1033\'e7\f0\lang1055 in branch yarat\f1\u305?\f0 yoruz   git -checkout -b  feat/cart-logic (b\f2\lang1033\'f6\f0\lang1055 ylece ana koldan  cart logici i\f2\lang1033\'e7\f0\lang1055 eren feature branch\f1\u305?\f0 na ge\f2\lang1033\'e7\f0\lang1055 iyorsun asl\f1\u305?\f0 nda branch\f1\u305?\f0  yarat\f1\u305?\f0 p hemen ge\f2\lang1033\'e7\f0\lang1055 iyorsun)\par
+9- git add . \par
+10- git commit -m " added cart visibility state"   b\f2\lang1033\'f6\f0\lang1055 ylece branch'e bu \f2\lang1033\'f6\f0\lang1055 zellikleri y\f2\lang1033\'fc\f0\lang1055 kledik.\par
+11-sonra github websayfas\f1\u305?\f0 na gidip repository yarat\f1\u305?\f0 yorsun(ama add read me , add gitt ignore t\f1\u305?\f0 klamadan yarat\f1\u305?\f0 yorsun \f2\lang1033\'e7\'fc\f0\lang1055 nk\f2\lang1033\'fc\f0\lang1055  zaten local git repository'in var,)\par
+12-clona ihtiyac\f1\u305?\f0 n yok local repository'in zaten var,  bu y\f2\lang1033\'fc\f0\lang1055 zden sadece  push existing repor from command line,\f2\lang1033\'e7\'fc\f0\lang1055 nk\f2\lang1033\'fc\f0\lang1055  this app is a remote repository for my project  bu\par
+13-\f1\'ba\f0 imdi local projemizi github repoya ba\f1\u287?\f0 layaca\f1\u287?\u305?\f0 z command line'a gel ve\par
+git remote add origin {{\field{\*\fldinst{HYPERLINK https://github.com/ARDACANCELIK/react.js-order-meal.git }}{\fldrslt{https://github.com/ARDACANCELIK/react.js-order-meal.git\ul0\cf0}}}}\f0\fs22   (local repo- remote ile ba\f1\u287?\f0 land\f1\u305?\f0  b\f2\lang1033\'f6\f0\lang1055 ylece) \f1\'ba\f0 imdi push my changes to this repository\par
+git push  origin main  (repoya bakarsan branch'teki yapt\f1\u305?\u287?\u305?\f0 n de\f1\u287?\f0 i\f1\'ba\f0 iklikler githubda yok) sadece ilk kod var.\par
+\par
+buraya kadar asl\f1\u305?\f0 nda s\f1\u305?\f0 f\f1\u305?\f0 rdan bir repo yarat\f1\u305?\f0 yorsun ve yukar\f1\u305?\f0 da proje yarat\f1\u305?\f0 l\f1\u305?\f0 yor \f1\'ba\f0 imdi a\f1\'ba\f0 a\f1\u287?\u305?\f0 daki b\f2\lang1033\'f6\f0\lang1055 l\f2\lang1033\'fc\f0\lang1055 mde yarat\f1\u305?\f0 lm\f1\u305?\'ba\f0  projeye birisi kat\f1\u305?\f0 lacak ve githubdaki repoyu clonlay\f1\u305?\f0 p \f2\lang1033\'fc\f0\lang1055 zerinde \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\f0 acak o senaryoyu g\f2\lang1033\'f6\f0\lang1055 relim\par
+______________________________________________________________________________________\par
+\b\fs32 yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  2\b0\fs22\par
+1-bo\f1\'ba\f0  bir folder  yarat\f1\u305?\f0 p  visual studio'yu a\f2\lang1033\'e7\f1\lang1055\u305?\f0 yorsun , githubdan repo clone link ile repoyu al\f1\u305?\f0 yorsun \par
+2-git clone   ve url'yi yap\f1\u305?\'ba\f0 t\f1\u305?\f0 r    yani    git clone {{\field{\*\fldinst{HYPERLINK https://github.com/ARDACANCELIK/react.js-order-meal.git }}{\fldrslt{https://github.com/ARDACANCELIK/react.js-order-meal.git\ul0\cf0}}}}\f0\fs22   sonuna bo\f1\'ba\f0 luk ve  bir nokta eklersen   do\f1\u287?\f0 rudan dosyaya indiriyor  yani \par
+clone {{\field{\*\fldinst{HYPERLINK https://github.com/ARDACANCELIK/react.js-order-meal.git }}{\fldrslt{https://github.com/ARDACANCELIK/react.js-order-meal.git\ul0\cf0}}}}\f0\fs22  .\par
+3-npm install yap\f1\u305?\f0 yor ve npm start \par
+4-files'daki dosyalar\f1\u305?\f0  file'\f1\u305?\f0 n kendisi olmadan cart folder'\f1\u305?\f0  i\f2\lang1033\'e7\f0\lang1055 ine b\f1\u305?\f0 rak unutma biz clone dosyas\f1\u305?\f0 nda oldu\f1\u287?\f0 umuz i\f2\lang1033\'e7\f0\lang1055 in projeyi yaratan yukar\f1\u305?\f0 daki hesab\f1\u305?\f0 n app.js kodu ile bizimki farkl\f1\u305?\f0  app.js  github repo yani clonlad\f1\u305?\u287?\u305?\f0 m\f1\u305?\f0 z repo  dosyay\f1\u305?\f0  yaratan \f1\'ba\f0 ahs\f1\u305?\f0 n son de\f1\u287?\f0 i\f1\'ba\f0 ikklerini i\f2\lang1033\'e7\f0\lang1055 ermiyor bu \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\f0 ma onun local git hesab\f1\u305?\f0 nda.\par
+5-kendi kodumuzu yaz\f1\u305?\f0 yoruz app.js  i\f2\lang1033\'e7\f0\lang1055 ine. \par
+6-control+c ile dev server'\f1\u305?\f0  kapat \par
+7-git checkout -b feat/xcart\par
+8-git add .\par
+9-git commit -m"added cart modal"\par
+10- now i will push this branch that i clone  to our original remote repository   \par
+git push origin feat/xcart  bu a\f1\'ba\f0 amada i\f1\'ba\f0 e yaram\f1\u305?\f0 yor \f2\lang1033\'e7\'fc\f0\lang1055 nk\f2\lang1033\'fc\f0\lang1055  proje sahibi add collaborator yapmad\f1\u305?\f0  \f1\'ba\f0 imdi  tekrar repo sahibine gidiyoruz  \par
+_________________________________________________________________________________________________________________________________________\par
+\b\fs32 yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  1\par
+\b0\fs24 1- go to setting and then manage access and invite collaborator\par
+\par
+________________________________________________________________________________________________________________________________________________\b\fs32 Yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  2\par
+\b0\fs24 1-invite'\f1\u305?\f0  kabul ediyor\par
+2-\fs22 git push origin feat/xcart    ve ard\f1\u305?\f0 ndan user name'ni giriyor githubdaki,, nereye giriyor yukar\f1\u305?\f0 da visual studio'da a\f2\lang1033\'e7\f1\lang1055\u305?\f0 lan yere ard\f1\u305?\f0 ndan ayn\f1\u305?\f0  yere password giriyor(paswwordun  personal access token unutma) bunu da githubdan bulup(my profile +settings+developer settings+personal access tokens) generate token yap  sadece repo otoritesi  ard\f1\u305?\f0 ndan  visual studio i\f2\lang1033\'e7\f0\lang1055 ine giriyorsun bu token'i  bunu girince yukar\f1\u305?\f0 daki push enter ile ger\f2\lang1033\'e7\f0\lang1055 ekle\f1\'ba\f0 ir. (ben iki yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  sim\f2\lang1033\'fc\f0\lang1055 lasyonu yapsam bile tek github kullan\f1\u305?\f0 c\f1\u305?\f0 s\f1\u305?\f0  oldu\f1\u287?\f0 um i\f2\lang1033\'e7\f0\lang1055 in iki branch g\f2\lang1033\'f6\f0\lang1055 z\f2\lang1033\'fc\f0\lang1055 kt\f2\lang1033\'fc\f0\lang1055  bende de ).\par
+\par
+\par
+
+\pard\sa200\sl276\slmult1\qj\b\fs28 meaning of these \b0\fs22 : So this means Max as the owner creates the repository, pushed the main branch,we cloned this main branch,created a separate branch,added some changes and then pushed this branch to the remote repository via our personal access token.\par
+__________________________________________________________________________________________\par
+\b\fs32 Yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  1\par
+\b0\fs24 1-\f1\'ba\f0 imdi kendi lokal laptopunda birinci yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  ve repo sahibi, ikinci yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0 n\f1\u305?\f0 n branch olarak y\f2\lang1033\'fc\f0\lang1055 kledi\f1\u287?\f0 i son de\f1\u287?\f0 i\f1\'ba\f0 iklikler yok. Bunlar githuba ikinci eleman taraf\f1\u305?\f0 ndan y\f2\lang1033\'fc\f0\lang1055 klendi ilk yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  bu de\f1\u287?\f0 i\f1\'ba\f0 iklikleri almas\f1\u305?\f0  laz\f1\u305?\f0 m\par
+2-git pull diyerek bunlar\f1\u305?\f0  al\f1\u305?\f0 yor. /// fakat bundan daha \f2\lang1033\'f6\f0\lang1055 nce unutma ilk yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  kendi laptopu i\f2\lang1033\'e7\f0\lang1055 inde local reposunda bir branch yapm\f1\u305?\'ba\f0 t\f1\u305?\f0  hatta o branchdeki i\f1\'ba\f0 lemler githubda g\f2\lang1033\'f6\f0\lang1055 z\f2\lang1033\'fc\f0\lang1055 km\f2\lang1033\'fc\f0\lang1055 yordu oraya atmam\f1\u305?\'ba\f0 t\f1\u305?\f0 r.   ilk \f2\lang1033\'f6\f0\lang1055 nce o branch'i kendi  main branchi ile birle\f1\'ba\f0 tirecek. ilk \f2\lang1033\'f6\f0\lang1055 nce branch\f1\u305?\f0 ndan kendi main branch\f1\u305?\f0 na ge\f2\lang1033\'e7\f0\lang1055 iyor   git checkout main diyerek \par
+3- ard\f1\u305?\f0 ndan ana branchta iken  \fs22   git merge\fs24  \fs22 feat/cart-logic  diyor ve birle\f1\'ba\f0 tiriyor(kendi branchlar\f1\u305?\f0 n\f1\u305?\f0 )\par
+4-\f1\'ba\f0 imdi de kendi reposu ile ikinci yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0 n\f1\u305?\f0 n \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\f0 mas\f1\u305?\f0 n\f1\u305?\f0  birle\f1\'ba\f0 tirme zaman\f1\u305?\f0  (bu a\f1\'ba\f0 amada  yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  ikinin branch\f1\u305?\f0  bizim i\f2\lang1033\'e7\f0\lang1055 in remote branch biz branch\f1\u305?\f0  g\f2\lang1033\'f6\f0\lang1055 rebiliriz \f2\lang1033\'fc\f0\lang1055 zerinde \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\f0 abiliriz git checkout origin feat/xcart    diyerek hatta   git checkout feat/xcart    diyerek otomatik local tracking branch yaratabilirim bu remote branch i\f2\lang1033\'e7\f0\lang1055 in) ama derdim bunlar de\f1\u287?\f0 il derdim bu remote branch ile benim birle\f1\'ba\f0 tirilmi\f1\'ba\f0  main branch\f1\u305?\f0 m\f1\u305?\f0  birle\f1\'ba\f0 tirmek yani merge \par
+5-bundan \f2\lang1033\'f6\f0\lang1055 nce mutlaka kontrol et ana branchta oldu\f1\u287?\f0 unu  \fs24 git checkout main  ve ard\f1\u305?\f0 ndan git branch ile ana branchta olup olmad\f1\u305?\u287?\u305?\f0 na bak\f1\u305?\f0 yor\par
+\fs22 git merge\fs24  \fs22 feat/xcart diyor  ( kendisi yani birinci yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  ile ikinci yaz\f1\u305?\f0 l\f1\u305?\f0 mc\f1\u305?\f0  \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\f0 mas\f1\u305?\f0  birle\f1\'ba\f0 iyor b\f2\lang1033\'f6\f0\lang1055 ylece) elbette merge conflict olacak burada \par
+6- merge conflict'i accept current change dedi d\f2\lang1033\'fc\f0\lang1055 zeltti bir iki kod yazd\f1\u305?\f0  ard\f1\u305?\f0 ndan \par
+7-git add .  ve  git commit -m "merged cart features"  diyerek bitirdi.(bunlar\f1\u305?\f0 n hepsi main branchta oluyor ha).\par
+8-npm start ile g\f2\lang1033\'f6\f0\lang1055 r kod nas\f1\u305?\f0 l \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\u305?\f0 yor.\par
+9-g\f2\lang1033\'f6\f0\lang1055 rd\f2\lang1033\'fc\f0\lang1055  her\f1\'ba\f0 ey \f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\u305?\f0 yor \f1\'ba\f0 imdi bunu  d\f2\lang1033\'fc\f0\lang1055 zeltilmi\f1\'ba\f0  ve birle\f1\'ba\f0 tirilmi\f1\'ba\f0  son hali ile githuba y\f2\lang1033\'fc\f0\lang1055 klemek laz\f1\u305?\f0 m   control+c kapat dev serveri ve \par
+10- git push origin main diyerek bitiriyor.\par
+................................................................................................................................................................................................\par
+
+\pard\sa200\sl276\slmult1\qc\b\fs40 Ba\f1\'ba\f0 ka bir senaryo\b0\fs22\par
+
+\pard\sa200\sl276\slmult1\qj\fs24 collaborator de\f1\u287?\f0 il open source project with forks push pull requests \par
+bir open source projede hata g\f2\lang1033\'f6\f0\lang1055 rd\f2\lang1033\'fc\f0\lang1055 n onu d\f2\lang1033\'fc\f0\lang1055 zeltip katk\f1\u305?\f0  sunmak istiyorsun.  \par
+\f2\lang1033\'c7\f0\lang1055 al\f1\u305?\'ba\f0 mak istedi\f1\u287?\f0 in projede fork yap\f1\u305?\f0 yorsun(\f2\lang1033\'e7\f0\lang1055 al\f1\u305?\'ba\f0 mak i\f2\lang1033\'e7\f0\lang1055 in proje kopyas\f1\u305?\f0  yaratmak)\par
+\par
+fork sonras\f1\u305?\f0  full access to project ard\f1\u305?\f0 ndan hemen clone yap\f1\u305?\f0 yorsun (niye sadece clone yapmad\f1\u305?\f0 k \f2\lang1033\'e7\'fc\f0\lang1055 nk\f2\lang1033\'fc\f0\lang1055  bunda push yapam\f1\u305?\f0 yorsun clone yapsan bile bu y\f2\lang1033\'fc\f0\lang1055 zden fork stratejisi \f2\lang1033\'f6\f0\lang1055 nemli) push yapamazs\f1\u305?\f0 n \f2\lang1033\'e7\'fc\f0\lang1055 nk\f2\lang1033\'fc\f0\lang1055  collaborator de\f1\u287?\f0 ilsin o y\f2\lang1033\'fc\f0\lang1055 zden  ((That's why we use the fork option here to copy the project,to clone it locally,to change it,to then push it to GitHub and to then create the pull request on GitHub.))\par
+\par
+1- empty project folder'a  git clone ve url'i yap\f1\u305?\'ba\f0 t\f1\u305?\f0 r  (fork sonras\f1\u305?\f0  ula\f1\'ba\f0 t\f1\u305?\u287?\u305?\f0 n repo i\f2\lang1033\'e7\f0\lang1055 inde clone dedin linki ald\f1\u305?\f0 n  o link i\f1\'ba\f0 te)  bo\f1\'ba\f0 luk ve noktay\f1\u305?\f0  unutma  link sonunda. \par
+2-npm install, git branch \f2\lang1033\'f6\f0\lang1055 nemli de\f1\u287?\f0 il forked projectte ana branch'ta kalabilirsin bizim forked projectimiz. main branchta kal  kodunu yaz bol bol  npm start ile g\f2\lang1033\'f6\f0\lang1055 r , sonra control c ile kapat server'i \par
+3-that I'm well, working on this project.I'm not a collaborator as I said, therefore, what we want to do now is we first want to push this latest commit to our personal GitHub page. And afterwards we want to add a pull request to inform owner about the fact that we implemented this change. owner of project can then review it and hopefully confirm that this change is great and add this commit to the existing main branch in his project.\par
+push to our repo first : git add . \par
+git commit -m"fixed item handler logic"   ard\f1\u305?\f0 ndan sadece git push yeter  \f2\lang1033\'e7\'fc\f0\lang1055 nk\f2\lang1033\'fc\f0\lang1055  local tracking branch yapt\f1\u305?\f0 k clone ile,,  \f1\'ba\f0 ifreleri girdik tokenlar\f1\u305?\f0  (username github username password ise  personal access token \par
+4- ard\f1\u305?\f0 ndan fork yapt\f1\u305?\u287?\u305?\f0 m\f1\u305?\f0 z ana  repoya gidip o  hesapta  pull request tu\f1\'ba\f0 una bas\f1\u305?\f0 yorsun. orada  compare across forks'a bas\f1\u305?\f0 yorsun  sol taraf ana repo,, sa\f1\u287?\f0  taraf drop menuden  seninkini se\f2\lang1033\'e7\f0\lang1055   ard\f1\u305?\f0 ndan tekrar create pull requeste bas \par
+\par
+_____________________________________________________\par
+\fs40 owner  sayfas\f1\u305?\f0   pull requesti g\f2\lang1033\'f6\f0\lang1055 r\f2\lang1033\'fc\f0\lang1055 yor \par
+githubda kabul ediyor ve kod birle\f1\'ba\f0 iyor  sonras\f1\u305?\f0 nda kendi laptopuna son halini indirmek istiyor localde \par
+\ul git pull origin main \ulnone ile local laptopa son halini indiriyor owner \fs24\par
+\par
+
+\pard\sa200\sl276\slmult1\f2\fs22\lang31\par
+}
+ 
